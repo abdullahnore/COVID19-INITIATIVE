@@ -1,37 +1,22 @@
 /* navbar css style */
-/*container*/
-.container { 
-  margin-top: 0;
-  margin-bottom: 25px;
-}
-/*container end */
-
-/* ul styling  */
-ul{
-  list-style-type: none;
- 
-  padding: 0;
+/*top nav*/
+.topnav {
   overflow: hidden;
-  background-color: #333333;
+  background-color: #f1f1f1;
+  margin-bottom: 10px;
 }
-/* ul styling end  */
 
-/* li styling   */
-li{
-  float:left;
-}
-/* li styling end  */
-/* li and a styling   */
-li a {
-  display: block;
-  color:white;
+.topnav a {
+  float: left;
+  display: inline-block;
+  color: black;
   text-align: center;
-  padding:14px 16px;
+  padding: 14px 50px;
   text-decoration: none;
+  font-size: 17px;
+  border-bottom: 3px solid transparent;
 }
-/* li and a styling  end   */
-/*  a styling  Hover  */
- a:hover {
-background-color: #111111;
+
+.topnav a:hover {
+  border-bottom: 3px solid red;
 }
-/*  a styling  Hover end  */
