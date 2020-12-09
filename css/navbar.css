@@ -20,3 +20,9 @@
 .topnav a:hover {
   border-bottom: 3px solid red;
 }
+/*logo styleing*/
+.logo{
+ 
+    background-color: rgba(241, 64, 29, 0.785);
+  }
+  /* logo syling end*/
