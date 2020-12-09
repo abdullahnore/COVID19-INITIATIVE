@@ -1,8 +1,15 @@
 /* navbar css style */
+/*container*/
+.container { 
+  margin-top: 0;
+  margin-bottom: 100px;
+}
+/*container end */
+
 /* ul styling  */
 ul{
   list-style-type: none;
-  margin: 0;
+ 
   padding: 0;
   overflow: hidden;
   background-color: #333333;
