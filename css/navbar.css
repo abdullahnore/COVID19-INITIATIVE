@@ -18,7 +18,7 @@
 }
 
 .topnav a:hover {
-  border-bottom: 3px solid red;
+  border-bottom: 3px solid rgba(241, 64, 29, 0.785);
 }
 /*logo styleing*/
 .logo{
