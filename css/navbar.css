@@ -97,3 +97,10 @@ heading {
 }
 
 /*end*/
+
+/*centering of banner*/
+.center {
+  margin-top:100px;
+  display: block;
+}
+/*end*/
