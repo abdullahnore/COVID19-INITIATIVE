@@ -6,16 +6,14 @@
   text-align: center;
   bottom: 0;
   left:0;
-  width: 100%;
+  width:100%;
   z-index: 3;
 }
 
 .footer a {
   max-width: 100%;
- 
   display: inline-block;
   color: rgb(255, 255, 255);
-  
   padding: 14px 70px;
   text-decoration: none;
   font-size: 17px;
@@ -45,10 +43,10 @@
   background-color: rgb(19, 144, 228);
 }
 /* tweet styling end */
-/*linked  styling start */
+/*insta styling start */
 
 .insta:hover{
 
   background-color: rgb(165, 226, 245);
 }
-/*linked  styling end */
+/*insta  styling end */
