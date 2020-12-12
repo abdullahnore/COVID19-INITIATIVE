@@ -14,7 +14,7 @@ z-index: 3;
 .topnav a {
   float: left;
   display: inline-block;
-  color: rgb(238, 13, 13);
+  color: rgb(247, 16, 16);
   text-align: center;
   padding: 14px 50px;
   text-decoration: none;
@@ -28,7 +28,7 @@ z-index: 3;
 /*logo styleing*/
 .logo{
   
-    background-color: rgba(235, 37, 7, 0.785);
+    background-color: rgba(235, 45, 45, 0.863);
   }
   .logo:hover{
   
