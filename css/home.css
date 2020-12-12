@@ -43,14 +43,16 @@
 {
   display: flex;
   flex-wrap: wrap;
-  padding: 4px;
+  padding: 2px;
+  text-align: center;
 }
 /* 4 equal columns */
 .column
 {
-  flex:25%;
+  flex:23%;
   max-width: 25%;
-  padding: 4px;
+  padding: 2px;
+  
 }
 .column img{
   margin-top: 8px;
@@ -80,7 +82,7 @@
 }
 
 /*  column responsive 2 columns*/
-@media (max-width:800px)
+@media (max-width:900px)
 {
   .column
   {
