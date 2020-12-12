@@ -20,7 +20,7 @@
   /* selects all input element inside the frorm*/
   display: inline-block;
   width: 100%;
-  pad: 0 20px;
+  padding: 0 20px;
   line-height: 50px;
   height: 50px;
   background: whitesmoke;
