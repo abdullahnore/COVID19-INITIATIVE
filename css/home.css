@@ -1,8 +1,98 @@
 /* Top margin and heading */
-.aligned { 
-  margin-top:100px;
-  margin-left:300px;
-  display: flex; 
-  align-items: center; 
+/* flex box */
+.flex-container { 
+  
+  display: flex;
+  flex: wrap; 
+  text-align: center; 
 } 
+.flex-item-1
+{
+  background-color: rgba(255, 255, 255, 0.2);
+  padding-top: 150px;
+  flex: 50%;
+}
+.flex-item-2
+{
+  background-color: rgba(255, 255, 255, 0.2);
+ 
+  padding-top: 90px;
+  flex:50%;
+}
+.banner-item-3
+{
+  background-color: rgba(255, 15, 15, 0.8);
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 20px;
+  text-align: center;
+  font-size: 24px;
+  border-radius: 5px;
+}
+.banner-item-3:hover
+{
+  background-color:rgba(255, 15, 15, 1);
+  transition: all ease .5s;
+
+}
+/* after covid prevention row colum photo grid */
+.row
+{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 4px;
+}
+/* 4 equal columns */
+.column
+{
+  flex:25%;
+  max-width: 25%;
+  padding: 4px;
+}
+.column img{
+  margin-top: 8px;
+  vertical-align: middle;
+} 
+
+
+
+
+
+
+/* responsive layout */
+@media  (max-width:1000px)
+{
+  .flex-item-1
+  {
+    padding-top: 160px;
+    flex:100%;
+    
+  }
+  .flex-item-2
+  {
+    padding-top: 160px;
+    flex:100%;
+    
+  }
+}
+
+/*  column responsive 2 columns*/
+@media (max-width:800px)
+{
+  .column
+  {
+    flex:40%;
+    max-width: 50%;
+  }
+}
+/*  column responsive  1 columns*/
+@media (max-width:600px)
+{
+  .column
+  {
+    flex:100%;
+    max-width: 100%;
+  }
+}
+/*end*/
 /*end*/
