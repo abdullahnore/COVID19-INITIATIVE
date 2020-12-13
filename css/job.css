@@ -17,7 +17,7 @@ body
 .job-wrap * {
   box-sizing: border-box;
 }
-/* health care  block */
+/* job care  block */
 .job-block
 {
   position: relative;
@@ -31,7 +31,7 @@ body
   box-shadow:0 0 50px rgba(0,0,0,0.2);
   border-radius: 5px;
 }
-/* health care  block  end */
+/* job care  block  end */
 
 /****** FLIPBOX ***********************/ 
 .flip-card
