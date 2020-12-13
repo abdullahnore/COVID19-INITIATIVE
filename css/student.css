@@ -1,0 +1,73 @@
+/*student css*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+body{
+  background-image: url(../image/background-image.jpg);
+  background-size: cover;
+  
+ 
+}
+
+.wrapper{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  max-width: 550px;
+  background: rgba(240, 73, 73, 0.8);
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(39, 37, 37, 0.3);
+}
+
+.wrapper .title h1{
+  color: #e2e4e6;
+  text-align: center;
+  margin-bottom: 25px;
+}
+/* text -style*/
+.text-style{
+  
+  display: block;
+  padding: 2px;
+  margin: 10px ;
+  font-size: 20px;
+color: whitesmoke;
+font-family: Arial, Helvetica, sans-serif;
+}
+/* submit button */
+.btn {
+    background: #ca6051;
+    text-align: center;
+    padding: 15px;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    display: block;
+    text-transform: uppercase;
+    outline: none;
+    text-decoration: none;
+    box-shadow: 0 0 10px rgba(39, 37, 37, 0.1);
+}
+/* send effect for submit */
+.btn:hover
+{
+z-index: 1;
+background-image:linear-gradient(135deg,#ca6051 30%,#df1616 90%);
+transition: all  ease 0.5s;
+}
+/*send effect for submit ned  */
+
+@media (max-width: 600px){
+  .contact-form{
+    flex-direction: column;
+  }
+  
+ 
+}
